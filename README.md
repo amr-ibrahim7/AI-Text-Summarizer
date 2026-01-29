@@ -8,13 +8,17 @@ A modern web application that uses AI to generate concise summaries of long text
 
 ## 📸 Screenshots
 
-![App Screenshot](<img width="1271" height="613" alt="sum1" src="https://github.com/user-attachments/assets/de86453f-a636-4cad-9577-c88dfb59abcd" />)
+![App Screenshot]
+
+
+<img width="1271" height="613" alt="sum1" src="https://github.com/user-attachments/assets/de86453f-a636-4cad-9577-c88dfb59abcd" />
 
 
 <br/>
 <br/>
 
-(<img width="1278" height="572" alt="sum2" src="https://github.com/user-attachments/assets/8dc2b9e6-ec44-4727-8f0e-524ce500865c" />)
+
+<img width="1278" height="572" alt="sum2" src="https://github.com/user-attachments/assets/8dc2b9e6-ec44-4727-8f0e-524ce500865c" />
 
 
 
