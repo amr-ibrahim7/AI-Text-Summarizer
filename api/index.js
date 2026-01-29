@@ -5,7 +5,7 @@ export default function handler(req, res) {
       timestamp: new Date().toISOString(),
       endpoints: {
         health: '/',
-        summarize: '/summarize'
+        summarize: 'POST /summarize'
       }
     });
   }
