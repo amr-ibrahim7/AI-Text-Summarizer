@@ -118,7 +118,8 @@ async function summarizeText(text) {
 
 
 async function callHuggingFaceAPI(text) {
-    const BACKEND_URL = 'http://localhost:3000/summarize';
+    // const BACKEND_URL = 'http://localhost:3000/summarize';
+    const BACKEND_URL = 'https://ai-text-summarizer-wheat.vercel.app/summarize';
     
     const response = await fetch(BACKEND_URL, {
         method: 'POST',
