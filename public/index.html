@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-powered text summarizer using advanced machine learning">
+    <title>AI Text Summarizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Summarizer</h1>
+        <p class="subtitle">Summarize long articles and documents instantly</p>
+
+        <textarea 
+            id="inputText" 
+            placeholder="Paste your text here (minimum 50 characters)..."
+            aria-label="Input text for summarization"
+        ></textarea>
+        
+        <button id="summarizeBtn" aria-label="Generate summary">
+            Summarize
+        </button>
+
+        <div id="loader" class="hidden" role="status" aria-live="polite">
+            <div class="spinner"></div>
+            <p>Generating summary...</p>
+        </div>
+
+        <div id="resultContainer" class="hidden" role="region" aria-label="Summary result">
+            <h2>Summary</h2>
+            <div id="summaryResult"></div>
+        </div>
+
+        <div class="history-section">
+            <h3>Recent Summaries</h3>
+            <div id="historyList" role="list">
+                <p style="color: #adb5bd; text-align: center; padding: 20px; font-size: 14px;">Loading...</p>
+            </div>
+        </div>
+    </div>
+  
+
+    <!-- Firebase SDK -->
+    <script defer src="/__/firebase/12.8.0/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/12.8.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+
+    <!-- App Script -->
+    <script src="app.js"></script>
+</body>
+</html>
