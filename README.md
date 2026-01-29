@@ -18,6 +18,22 @@ Try it now! 🚀
 
 <img width="1278" height="572" alt="sum2" src="https://github.com/user-attachments/assets/8dc2b9e6-ec44-4727-8f0e-524ce500865c" />
 
+
+## 📸 Mobile 
+
+
+![sumMob1](https://github.com/user-attachments/assets/a449bc7d-cf57-46fb-9f3e-ed5206e599f9)
+
+<br/>
+<br/>
+
+![sumMob2](https://github.com/user-attachments/assets/773f3ba7-36c8-431b-b16e-39b4314f54ea)
+
+<br/>
+<br/>
+
+![sumMob3](https://github.com/user-attachments/assets/0bb39b4a-d0f3-4ff1-bfe6-7b95ea8dc135)
+
 ## ✨ Features
 
 - 📝 **AI-Powered Summarization**: Uses Facebook's BART-large-CNN model via Hugging Face with optimized parameters
